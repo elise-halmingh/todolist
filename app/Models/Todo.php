@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Models;
+namespace App\Models\Todo;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Todolist extends Model
+class Todo extends Model
 {
     use HasFactory;
-    protected $fillable = ['content'];
 }
+
